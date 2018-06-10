@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="24" height="24" tilewidth="24" tileheight="24" nextobjectid="2">
+ <tileset firstgid="1" name="test_dungeon_tilset" tilewidth="24" tileheight="24" tilecount="92" columns="4">
+  <image source="../../../Documents/test_dungeon_tilset.png" width="96" height="575"/>
+  <terraintypes>
+   <terrain name="Unpassable" tile="-1"/>
+  </terraintypes>
+  <tile id="1" terrain=",,0,0"/>
+  <tile id="4" terrain=",0,,0"/>
+  <tile id="6" terrain="0,,0,"/>
+  <tile id="9" terrain="0,0,,"/>
+  <tile id="13" terrain=",,0,0"/>
+  <tile id="16" terrain=",0,,0"/>
+  <tile id="60" terrain="0,0,0,"/>
+  <tile id="61" terrain="0,0,,0"/>
+  <tile id="64" terrain="0,,0,0"/>
+  <tile id="65" terrain=",0,0,0"/>
+  <tile id="84" terrain="0,,,0"/>
+  <tile id="85" terrain=",0,0,"/>
+  <tile id="88" terrain="0,0,,0"/>
+  <tile id="89" terrain="0,0,0,"/>
+ </tileset>
+ <tileset firstgid="93" name="erroar_test" tilewidth="24" tileheight="24" tilecount="4" columns="2">
+  <image source="../../../Documents/erroar_test.png" width="48" height="48"/>
+ </tileset>
+ <tileset firstgid="97" source="basic_tileset.tsx"/>
+ <layer name="Tile Layer 1" width="24" height="24" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANGIGYCQtmxqOHFMAKxCxYMPuo+cPCfE4g5gJiO6i5tlA+N5XMhwGYP6jl7lHzyTPfkQF7eUFpmYErnVIrzcLSKTYMS7tDPW6INR9XmY8LOzEg4p6YOMYXl0Z45Ij1Az7zlWhsPjXSKD7zpWhsviCNzbeigvn48iohjK3eAQA5EwZH
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="24" height="24" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2B4gayBdsAoIAlkIWFamY3Opqb5+PjUMJ+W7kc2dzTfjIKRBgA7zQcL
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="24" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztk9sKgzAMhv9X3WTO0w43nhkM2YObYcOC2PaiKfPCHz4QxK9JaoAje8yFSB1cA/05UTgolfxvYhC0yv4vT/H8IirijLA53Yi7IUG8OW2dlREdlnl9EH7XMjy3Hro9hPi519byXu7CCcv9NuabiXh43LWpo7Gc4doFX+3c54hf35p+rrkQvWj6+YzB4tbw+7Ll53nG8sfa3zWuf/PI/zMD9MdCaA==
+  </data>
+ </layer>
+ <layer name="Enemies" width="24" height="24" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj+IBaI42hofjwQJ9DQ/FEwCkbBKBgFo2AUUBcAALhlAXs=
+  </data>
+ </layer>
+</map>
